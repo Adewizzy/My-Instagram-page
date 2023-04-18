@@ -1,0 +1,131 @@
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #EEEEEE;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 14vw;
+}
+.placeholder{
+    margin-left: 8vw;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+.search-icon{
+    border: 1px solid grey;
+    position: relative;
+    height: 5.5vh;
+    border-radius: 10px;
+    width: 26vw;
+}
+.searc{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    margin-right: 5vw;
+    opacity: 0.6;
+    top: 5px;
+    right: 5px;
+}
+input.placeholder {
+    border: 1px solid #555;
+    width: 54%;
+    height: 1.5vh;
+    padding: 9px 4px 9px 40px;
+    cursor: pointer;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+.icon-header{
+    margin-right: 20vw;
+   display: flex;
+   gap: 2vw;
+   height: 5vh;
+   margin-top: 3vh;
+   cursor: pointer;
+}
+.cardigan{
+    width: 2.5vw;
+}
+.messenger{
+    width: 2.5vw;
+}
+.home{
+    width: 2.5vw;
+}
+.nav{
+    width: 2.5vw;
+}
+.box{
+    opacity: 0.6;
+    width: 30px;
+}
+
+.content-three{
+    background-color: white;
+    width: 50vw;
+    height: 100vh;
+    margin:auto;
+    margin-top: -15px;
+}
+.img-con{
+    background-color: gold;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 30px;
+}
+.main-three{
+    background-color:white;
+    width: 25vw;
+    height: 50vh;
+}
+.aside-three{
+    background-color:white;
+    width: 25vw;
+    height: 50vh;
+}
+.man{
+    background-color: white;
+    width: 15vw;
+    height: 50vh;
+}
+.man img{
+    width: 23vw;
+    height: 30vh;
+}
+.man-two img{
+    width: 25vw;
+    height: 60.5vh;
+}
+.main-man img {
+    width: 16.4vw;
+    height: 30vh;
+}
+.main-man-two img{
+    width: 16.4vw;
+    height: 6vh;
+}
+.down-part{
+    margin-top: 80px;
+}
